@@ -22,10 +22,10 @@ import time
 import requests
 from datetime import datetime, timezone
 
-from winrt.windows.media.control import (
+from winsdk.windows.media.control import (
     GlobalSystemMediaTransportControlsSessionManager as MediaManager,
 )
-from winrt.windows.media.control import (
+from winsdk.windows.media.control import (
     GlobalSystemMediaTransportControlsSessionPlaybackStatus as PlaybackStatus,
 )
 
